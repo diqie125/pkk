@@ -18,7 +18,7 @@ if($jumlah_data > 0){
     $_SESSION['role'] = $data ['role'];
 
     if($data['role'] == "admin"){
-        header("location:./admin/halaman_admin.php");
+        header("location:../admin/halaman_admin.php");
     }else if($data["role"] == "user"){
        header("Location: home.php");
     }
